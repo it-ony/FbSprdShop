@@ -9,8 +9,7 @@
         <js:I18n cid="i18n" path="app/locale" locale="de" loadMomentJs="false"/>
     </js:Injection>
 
-    <fb:Sdk appId="206748646126990" cid="fb" debug="true" status="true"
-            channelUrl="//fb.spreadomat.net/channel.html"/>
+    <fb:Sdk appId="206748646126990" cid="fb" channelUrl="//fb.spreadomat.net/channel.html"/>
 
     <div class="container">
         <div id="login-module">
