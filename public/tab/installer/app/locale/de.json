@@ -1,0 +1,22 @@
+{
+    "login": {
+        "username": "Login",
+        "password": "Passwort",
+        "region": "Region",
+        "login": "Anmelden",
+        "title": "Spreadshirt Shop einrichten"
+    },
+
+    "setup": {
+        "title": "Shop installieren",
+        "shop": "Shop",
+        "help": "Wähle einen deiner Spreadshirt-Shop aus der Liste aus. Die Artikel des ausgewählten Shops werden dann auf der Seite angezeigt.",
+        "error": "Es ist ein Fehler beim Shop installieren aufgetreten.",
+        "install": "Installieren"
+    },
+
+    "region": {
+        "EU": "Europa",
+        "NA": "Amerika"
+    }
+}
