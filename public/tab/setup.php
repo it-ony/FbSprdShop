@@ -34,7 +34,8 @@ if (!defined("INDEX")) {
 <script type="text/javascript" data-usage="bootstrap">
     rAppid.bootStrap("app/FbInstaller.xml", document.body, {
         language: "<?php echo $user->getLanguage(); ?>",
-        platform: "<?php echo $user->getRegion(); ?>"
+        platform: "<?php echo $user->getRegion(); ?>",
+        pageId: "<?php echo $tab->getPage()->getId(); ?>"
     }, {
         baseUrl: "installer",
         loadConfiguration: "config.json"

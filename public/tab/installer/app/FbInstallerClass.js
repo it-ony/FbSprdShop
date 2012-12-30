@@ -118,7 +118,7 @@ define(["js/core/Application", "js/core/List", "flow", "facebook/FbHelper", "spr
                         self.set('hasError', !!err);
 
                         if (!err) {
-                            window.location = ".";
+                            window.location = "./?pageId=" + self.$stage.$parameter.pageId;
                         }
                     });
 

@@ -36,6 +36,12 @@ class TabController {
             if ($data !== null) {
                 return new Tab($data);
             }
+        } else if (isset($_GET['pageId'])) {
+            return new Tab(array(
+                "page" => array(
+                    "id" => $_GET['pageId']
+                )
+            ));
         }
 
         return null;
