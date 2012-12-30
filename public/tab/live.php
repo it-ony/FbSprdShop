@@ -36,7 +36,7 @@ function getVersion() {
 
     <script type="text/javascript" src="shop/<?php echo $version; ?>/js/lib/require.js"
             data-usage="lib"></script>
-    <script type="text/javascript" src="shop/<?php echo $version; ?>/js/lib/rAppid.js"
+    <script type="text/javascript" src="shop/<?php echo $version; ?>/app/SprdShop.js"
             data-usage="lib"></script>
 
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
