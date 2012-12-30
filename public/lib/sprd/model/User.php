@@ -56,10 +56,10 @@ class User {
         $language = $this->getCountry();
 
         if (in_array($language, array("us"))) {
-            return "na";
+            return "NA";
         }
 
-        return "eu";
+        return "EU";
     }
 
 }

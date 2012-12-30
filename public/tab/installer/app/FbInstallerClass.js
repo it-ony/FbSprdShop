@@ -2,13 +2,13 @@ define(["js/core/Application", "js/core/List", "flow", "facebook/FbHelper", "spr
 
         var undefined,
             config = {
-                eu: {
+                EU: {
                     endPoint: "http://api.spreadshirt.net/api/v1",
                     gateway: "../api-eu/v1",
                     apiKey: "2b065dd3-88b7-44a8-87fe-e564ed27f904",
                     secret: "51616615-0bb1-471e-93f5-fe19022049ef"
                 },
-                na: {
+                NA: {
                     endPoint: "http://api.spreadshirt.com/api/v1",
                     gateway: "../api-na/v1",
                     apiKey: "707cddfb-844e-4a81-b9c9-b78b4df1d2f4",
