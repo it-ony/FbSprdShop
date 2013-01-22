@@ -17,7 +17,7 @@
                 <form class="form-horizontal" onsubmit="login">
                     <ui:Field label="{i18n.t('login.region')}">
                         <select items="{platforms}" selectedItem="{platform}">
-                            <option>{i18n.ts('region',item)}</option>
+                            <option data-region="{item}">{i18n.ts('region',item)}</option>
                         </select>
                     </ui:Field>
                     <field:Text inputId="username" label="{i18n.t('login.username')}" value="{{session.username}}"/>
